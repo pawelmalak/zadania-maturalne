@@ -16,15 +16,12 @@ int main() {
   }
   else {
     int piksele[200][320],
-        iloscKontrastujacych = 0,
-        i = 0,
-        j = 0;
+        iloscKontrastujacych = 0;
 
     // Zapisanie każdego piksela w tablicy dwuwymiarowej
-    while (plik >> piksele[i][j]) {
-      j++;
-      if (j == 319) {
-        i++;
+    for (int i = 0; i < 200; i++) {
+      for (int j = 0; j < 320; j++) {
+        plik >> piksele[i][j];
       }
     }
 
