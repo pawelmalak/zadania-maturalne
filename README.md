@@ -10,12 +10,16 @@
 
 Zadanie 1.1
 > Podaj jasność najjaśniejszego i jasność najciemniejszego piksela.
+> **Poprawny wynik: 221 i 7**
 
 Zadanie 1.2
 > Podaj, ile wynosi najmniejsza liczba wierszy, które należy usunąć, żeby obraz miał pionową oś symetrii.  Obraz  ma  pionową oś  symetrii,  jeśli  w  każdym  wierszu  i-ty  piksel  od  lewej  strony  przyjmuje tę samą wartość, co i-ty piksel od prawej strony, dla dowolnego 1 ≤i ≤320. 
+> **Poprawny wynik: 149**
 
 Zadanie 1.3
-> Sąsiednie  piksele  to  takie,  które  leżą  obok  siebie  w  tym  samym  wierszu  lub  w  tej  samej  kolumnie.  Dwa  sąsiednie  piksele  nazywamy  kontrastującymi,  jeśli  ich  wartości  różnią  się o więcej niż 128. Podaj liczbę wszystkich takich pikseli, dla których istnieje przynajmniej jeden kontrastujący z nim sąsiedni piksel.
+> Sąsiednie  piksele  to  takie,  które  leżą  obok  siebie  w  tym  samym  wierszu lub  w  tej  samej  kolumnie.  Dwa  sąsiednie  piksele  nazywamy  kontrastującymi, jeśli  ich  wartości  różnią  się o więcej niż 128. Podaj liczbę wszystkich takich pikseli, dla których istnieje przynajmniej jeden kontrastujący z nim sąsiedni   piksel.
+> **Poprawny wynik: 753**
 
 Zadanie 1.4
 > Podaj długość najdłuższej linii pionowej (czyli ciągu kolejnych pikseli w tej samej kolumnie obrazka), złożonej z pikseli tej samej jasności.
+> **Poprawny wynik: 5**
