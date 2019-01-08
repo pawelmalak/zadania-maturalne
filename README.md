@@ -31,7 +31,7 @@ Zadanie 1.4
 
 Zadanie 2.1
 > Naukowcy zauważyli, że po złączeniu dziesiątych liter co czterdziestego słowa (zaczynając od słowa czterdziestego) otrzymamy pewne przesłanie. Wypisz to przesłanie. Uwaga: Każde co czterdzieste słowo ma co najmniej 10 znaków.
-> **Poprawny wynik: **
+> **Poprawne hasło: *ZAPISZODPOWIEDZIWPLIKUTXT*
 
 Zadanie 2.2
 > Znajdź słowo, w którym występuje największa liczba różnych liter. Wypisz to słowo i liczbę występujących w nim różnych liter. Jeśli słów o największej liczbie różnych liter jest więcej niż jedno, wypisz pierwsze z nich pojawiające się w pliku z danymi.
