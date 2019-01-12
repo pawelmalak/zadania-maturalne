@@ -61,9 +61,32 @@ def zadanie_1_3(PIKSELE):
       if y < 319 and abs(PIKSELE[x][y] - PIKSELE[x][y + 1]) > 128:
         ile_kontrastujacych += 1
         continue
-  
+
+  # Zapis wyników dla zadania 1.3
   wyniki.write('3)\n' + str(ile_kontrastujacych) + '\n\n')
 
+
+# Zadanie 1.4
+def zadanie_1_4(PIKSELE):
+  najdluzsza = 1
+  najdluzsza_TMP = 1
+  poprzedni = 0
+
+  for y in range(320):
+    for x in range(199):
+      if x == 0:
+        poprzedni = PIKSELE[x][y]
+        najdluzsza_TMP = 1
+      else:
+        if PIKSELE[x][y] == poprzedni:
+          najdluzsza_TMP += 1
+        else:
+          if najdluzsza_TMP > najdluzsza:
+            najdluzsza = najdluzsza_TMP
+  
+  # Zapis wyników dla zadania 1.4
+  wyniki.write('4)\n' + str(najdluzsza))
+      
 
 # Główna funkcja
 def zadanie():
@@ -80,10 +103,11 @@ def zadanie():
       j += 1
     i += 1
 
-  # Wykonanie zadania 1
+  # Wykonanie zadań
   zadanie_1_1(PIKSELE)
   zadanie_1_2(PIKSELE)
   zadanie_1_3(PIKSELE)
+  zadanie_1_4(PIKSELE)
 
   # Zamknięcie pliku z danymi
   plik.close()
