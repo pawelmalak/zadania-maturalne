@@ -9,7 +9,7 @@ def zadanie_2_1(SLOWA):
   haslo = ''
 
   for i in range(1000):
-    if i == 39 or i % 40 == 39:
+    if i % 40 == 39:
       haslo += SLOWA[i][9]
     
   wyniki.write('1)\n' + haslo + '\n\n')
