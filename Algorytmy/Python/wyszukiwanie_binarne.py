@@ -1,3 +1,4 @@
+# Funkcja zwraca indeks szukanego elementu na liście lub None jeśli element nie istnieje
 def binary_search(tablica, szukana):
   start = 0
   koniec = len(tablica) - 1
