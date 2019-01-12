@@ -21,7 +21,21 @@ def zadanie_1_1(PIKSELE):
         najciemniejszy = PIKSELE[x][y]
   
   # Zapis wyników dla zadania 1.1
-  wyniki.write('1)\n' + str(najjasniejszy) + '\n' + str(najciemniejszy) + '\n')
+  wyniki.write('1)\n' + str(najjasniejszy) + '\n' + str(najciemniejszy) + '\n\n')
+
+# Zadanie 1.2
+def zadanie_1_2(PIKSELE):
+  ile_wierszy = 0
+
+  # Pętla wiersz po wierszu
+  for x in range(200):
+    for y in range(320):
+      if PIKSELE[x][y] != PIKSELE[x][319 - y]:
+        ile_wierszy += 1
+        break
+  
+  # Zapis wyników dla zadania 1.2
+  wyniki.write('2)\n' + str(ile_wierszy) + '\n\n')
 
 # Instrukcje wstępne
 # Zapisanie danych z pliku do lity
@@ -36,8 +50,9 @@ for linia in DANE:
     j += 1
   i += 1
 
-# Wywołanie zadania 1
+# Wykonanie zadania 1
 zadanie_1_1(PIKSELE)
+zadanie_1_2(PIKSELE)
 
 # Zamknięcie pliku z danymi
 plik.close()
