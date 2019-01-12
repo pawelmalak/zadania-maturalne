@@ -17,6 +17,6 @@ def binary_search(tablica, szukana):
   return None 
 
 
-tablica = [i for i in range(1,101)] # utworzenie listy z rosnącymi wartościami od 1 do 100
-print(binary_search(tablica, 40)) # zwróci 6
-print(binary_search(tablica, 59)) # zwróci None
+tablica = [i for i in range(100)] # utworzenie listy
+print(binary_search(tablica, 40)) # zwróci 40
+print(binary_search(tablica, 152)) # zwróci None
