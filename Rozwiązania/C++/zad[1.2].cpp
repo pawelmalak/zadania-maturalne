@@ -6,7 +6,7 @@ using namespace std;
 int main() {
   // Otwarcie pliku z danymi 
   fstream plik;
-  plik.open("../dane/dane1.txt", ios::in);
+  plik.open("../../dane/piksele.txt", ios::in);
 
   // Sprawdzanie czy plik istnieje
   if (plik.good() != true) {

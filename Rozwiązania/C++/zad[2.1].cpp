@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 
   fstream plik;
-  plik.open("../dane/sygnaly.txt", ios::in);
+  plik.open("../../dane/sygnaly.txt", ios::in);
 
   if (plik.good() != true) {
     cout << "Nie znaleziono pliku";
