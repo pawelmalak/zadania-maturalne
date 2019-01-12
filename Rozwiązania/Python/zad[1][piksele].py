@@ -46,7 +46,7 @@ def zadanie_1_2(PIKSELE):
 def zadanie_1_3(PIKSELE):
   ile_kontrastujacych = 0
 
-  # 
+  # Iteracja po każdym pikselu
   for x in range(200):
     for y in range(320):
       if x > 0 and abs(PIKSELE[x][y] - PIKSELE[x - 1][y]) > 128:
