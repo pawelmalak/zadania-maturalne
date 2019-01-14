@@ -1,0 +1,14 @@
+{
+  "zadania": [
+    {
+      "title": "Piksele",
+      "description": "lorem",
+      "podpunkty": [
+        {
+          "description": "ipsum",
+          "wynik": 100
+        }
+      ]
+    }
+  ]
+}
