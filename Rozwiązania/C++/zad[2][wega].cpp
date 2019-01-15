@@ -29,7 +29,7 @@ int main() {
 
 
     // Zadanie 1
-    wyniki << "1) ";
+    wyniki << "1) \n";
 
     for (int i = 0; i < 1000; i++) {
       // Wybieramy tylko co czterdzieste słowo, mając na uwadze indeksowanie tablic od 0
@@ -40,7 +40,7 @@ int main() {
 
 
     // Zadanie 2
-    wyniki << "\n\n2) ";
+    wyniki << "\n\n2) \n";
 
     int ktory = 0,
         ile = 0;
