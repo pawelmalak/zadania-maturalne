@@ -32,9 +32,27 @@ body {
 .main-task__title {
   font-size: 3.8rem;
   font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 .main-task__description {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 400;
+  line-height: calc(1.67 * 1.7rem);
+}
+
+.sub-task {
+  margin-top: 3rem;
+}
+
+.sub-task__title {
+  font-size: 1.6rem;
+}
+
+.sub-task__description {
+  font-size: 1.5rem;
+}
+
+.sub-task__result {
+
 }
