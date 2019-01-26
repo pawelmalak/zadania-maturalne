@@ -8,12 +8,14 @@ void selection_sort(double T[], int S) {
 
   for (int i = 0; i < S - 1; i++) {
     min_index = i;
+
     for (int j = i + 1; j < S; j++) {
       if (T[j] < T[min_index]) min_index = j;
-      min_val = T[min_index];
-      T[min_index] = T[i];
-      T[i] = min_val;
     }
+    
+    min_val = T[min_index];
+    T[min_index] = T[i];
+    T[i] = min_val;
   }
 }
 
