@@ -6,7 +6,7 @@ void selection_sort(double T[], int S) {
   int min_index;
   double min_val;
 
-  for (int i = 0; i < S-1; i++) {
+  for (int i = 0; i < S - 1; i++) {
     min_index = i;
     for (int j = i + 1; j < S; j++) {
       if (T[j] < T[min_index]) min_index = j;
