@@ -15,8 +15,8 @@ body {
 
 .header {
   width: 100%;
-  height: 300px;
-  background-color: #62b0e8;
+  height: 8px;
+  background-color: #0A558C;
 }
 
 .main-task {
@@ -27,6 +27,10 @@ body {
   box-shadow: 0 1px 3px hsla(0,0%,0%,.3);
   border-radius: 8px;
   margin-top: 2rem;
+}
+
+.main-task:last-child {
+  margin-bottom: 2rem;
 }
 
 .main-task__title {
@@ -47,12 +51,20 @@ body {
 
 .sub-task__title {
   font-size: 1.6rem;
+  font-weight: 700;
+  color: #0A558C;
 }
 
 .sub-task__description {
   font-size: 1.5rem;
+  line-height: calc(1.5rem * 1.67);
+  margin: 1rem 0;
 }
 
 .sub-task__result {
+  font-size: 1.5rem;
+}
 
+.sub-task__result--bold {
+  font-weight: 600;
 }
