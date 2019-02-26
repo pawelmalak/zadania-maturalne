@@ -43,6 +43,9 @@ int main() {
     cout << ileLiczb;
 
     // Zadanie 3.2
+    for (int i = 0; i < N; i++) {
+      cout << dec(LICZBY[i]);
+    }
 
   }
 

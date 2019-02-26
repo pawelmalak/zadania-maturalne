@@ -1,0 +1,24 @@
+{
+  "name": "zadania-maturalne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawelmalak/zadania-maturalne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawelmalak/zadania-maturalne/issues"
+  },
+  "homepage": "https://github.com/pawelmalak/zadania-maturalne#readme"
+}
