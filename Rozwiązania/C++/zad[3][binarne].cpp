@@ -21,11 +21,28 @@ int main() {
       plik >> LICZBY[i];
     }
 
+    // Zadanie 3.1
+    int ileLiczb = 0;
 
-    for (int i = 0; i < 1; i++) {
-      cout << LICZBY[i][0] << endl;
-      cout << LICZBY[i].length();
+    for (int i = 0; i < N; i++) {
+      int ileJ = 0,
+          ileZ = 0;
+
+      for (int j = 0; j < LICZBY[i].length(); j++) {
+        if (LICZBY[i][j] == '0') {
+          ileZ++;
+        }
+        else {
+          ileJ++;
+        }
+      }
+
+      if (ileZ > ileJ) { ileLiczb++; }
     }
+
+    cout << ileLiczb;
+
+    // Zadanie 3.2
 
   }
 
