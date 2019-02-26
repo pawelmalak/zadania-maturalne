@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 
 using namespace std;
 
@@ -13,15 +14,18 @@ int main() {
   }
   else {
 
-    string LICZBY[1000] = {};
+    int N = 1000;
+    string LICZBY[N] = {};
 
-    for (int i = 0; i < 1000; i++) {
+    for (int i = 0; i < N; i++) {
       plik >> LICZBY[i];
     }
 
 
-
-    cout << LICZBY[0];
+    for (int i = 0; i < 1; i++) {
+      cout << LICZBY[i][0] << endl;
+      cout << LICZBY[i].length();
+    }
 
   }
 
