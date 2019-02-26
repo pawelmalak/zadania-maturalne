@@ -43,9 +43,21 @@ int main() {
     cout << ileLiczb;
 
     // Zadanie 3.2
+    int podzielneDwa = 0,
+        podzielneOsiem = 0;
+
     for (int i = 0; i < N; i++) {
-      cout << dec(LICZBY[i]);
+      if (LICZBY[i][LICZBY[i].size() - 1] == '0') {
+        podzielneDwa++;
+      }
+
+      if (LICZBY[i][LICZBY[i].size() - 1] == '0' && LICZBY[i][LICZBY[i].size() - 2] == '0' && LICZBY[i][LICZBY[i].size() - 3] == '0') {
+        podzielneOsiem++;
+      }
     }
+
+    cout << endl << podzielneDwa;
+    cout << endl << podzielneOsiem;
 
   }
 
