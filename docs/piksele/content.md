@@ -13,3 +13,19 @@ Sąsiednie  piksele  to  takie,  które  leżą  obok  siebie  w  tym  samym  wi
 
 ### Zadanie 1.4
 Podaj długość najdłuższej linii pionowej (czyli ciągu kolejnych pikseli w tej samej kolumnie obrazka), złożonej z pikseli tej samej jasności.
+
+---
+
+## Wyniki
+
+### Zadanie 1.1
+Poprawny wynik: 221 i 7
+
+### Zadanie 1.2
+Poprawny wynik: 149
+
+### Zadanie 1.3
+Poprawny wynik: 753
+
+### Zadanie 1.4
+Poprawny wynik: 5
