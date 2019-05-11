@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/pawelmalak/zadania-maturalne/issues"
   },
-  "homepage": "https://github.com/pawelmalak/zadania-maturalne#readme"
+  "homepage": "https://github.com/pawelmalak/zadania-maturalne#readme",
+  "dependencies": {
+    "docsify-cli": "^4.3.0"
+  }
 }

@@ -1,0 +1,10 @@
+Zadanie 4.1
+420 liczb/y
+
+Zadanie 4.2
+500 Podzielnych przez 2
+123 Podzielnych przez 8
+
+Zadanie 4.3
+Najmniejsza liczba znajduje sie w wierszu 859
+Najwieksza liczba znajduje sie w wierszu 925
